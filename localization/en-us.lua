@@ -92,11 +92,11 @@ return {
 				["name"] = "Tungsten Cube",
 				["text"] = {
 					"{C:red}Crushes{} all {C:attention}Jokers{}",
-					"to the {C:attention}left{} when bought",
+					"to the {C:attention}left{} when obtained",
 					"This Joker gives {X:mult,C:white}X#1#{} Mult",
 					"for each {C:attention}Joker{} {C:red}Crushed{}",
 					"{C:inactive}(Currently {X:mult,C:white}X#2#{}{C:inactive} Mult)",
-					"{C:inactive,s:0.8}(Becomes Pinned after purchase)",
+					"{C:inactive,s:0.8}(Becomes Pinned after obtainment)",
 				},
 			},
 			["j_RAXD_critical"] = {
