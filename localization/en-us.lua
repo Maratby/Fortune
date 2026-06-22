@@ -16,6 +16,11 @@ return {
 			},
 			["j_RAXD_bpay"] = {
 				["name"] = "Brombus Pay",
+				["text"] = {
+					"Add a {C:attention}Coupon Tag{}",
+					"each {C:money}$#1#{} lost",
+					"{C:inactive}(currently {C:money}$#2#{C:inactive}){}",
+				},
 			},
 			["j_RAXD_gamblecore"] = {
 				["name"] = "Gamblecore",
@@ -55,9 +60,9 @@ return {
 					"When {C:attention}Blind{} is defeated,",
 					"{C:green}#1# in #2# {}chance to create",
 					"a {C:blue}Common {C:attention}Joker{}",
-					"{C:green}#1# in #3# {}chance to create",
+					"{C:green}#3# in #4# {}chance to create",
 					"an{C:green} Uncommon {C:attention}Joker{}",
-					"{C:green}#1# in #4# {}chance to create",
+					"{C:green}#5# in #6# {}chance to create",
 					"a {C:red}Rare {C:attention}Joker{}",
 					"{C:inactive}(Must have room){}",
 				},
@@ -85,6 +90,14 @@ return {
 			},
 			["j_RAXD_tungsten"] = {
 				["name"] = "Tungsten Cube",
+				["text"] = {
+					"{C:red}Crushes{} all {C:attention}Jokers{}",
+					"to the {C:attention}left{} when bought",
+					"This Joker gives {X:mult,C:white}X#1#{} Mult",
+					"for each {C:attention}Joker{} {C:red}Crushed{}",
+					"{C:inactive}(Currently {X:mult,C:white}X#2#{}{C:inactive} Mult)",
+					"{C:inactive,s:0.8}(Becomes Pinned after purchase)",
+				},
 			},
 			["j_RAXD_critical"] = {
 				["name"] = "Critcal",
@@ -97,7 +110,7 @@ return {
 				["text"] = {
 					"Gains {X:mult,C:white}X#2#{} if played hand",
 					"is a {C:attention}Straight{} containing",
-					"no {C:attention}Face Cards{}}",
+					"no {C:attention}Face Cards{}",
 					"{C:inactive}(Currently {X:mult,C:white}X#1#{C:inactive} Mult)",
 				},
 			},
